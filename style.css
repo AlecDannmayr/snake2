@@ -7,7 +7,11 @@ body {
   font-family: "VT323", monospace;
   font-weight: 400;
   font-style: normal;
-}
+  background-color: #414141;
+  background-image: url("snake-game-of-man-with-flute-qjvp8uqf83xayxoy.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;}
 
 .body,
 .snake {
@@ -20,6 +24,7 @@ body {
   grid-template-columns: repeat(20, 20px);
   grid-template-rows: repeat(20, 20px);
   margin: 5px;
+
 }
 
 .game-boarder-one {
